@@ -114,10 +114,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W             &kp E     &kp R      &kp T                                                     &kp Y        &kp U  &lt 5 I    &kp O    &lt 5 P
-&kp A           &kp S             &kp D     &kp F      &kp G           &kp LS(LG(S))      &kp LEFT_PARENTHESIS   &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&kp Z           &kp X             &kp C     &kp V      &kp B           &kp ESC            &kp RIGHT_PARENTHESIS  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LWIN  &kp LANG1  &lt 2 LEFT_ALT  &lt 3 SPACE        &kp BACKSPACE          &lt 1 ENTER                             &kp DEL
+&kp Q           &kp W             &kp E     &kp R      &kp T                                                  &kp Y        &kp U  &lt 5 I    &kp O    &lt 5 P
+&kp A           &kp S             &kp D     &kp F      &kp G        &kp LS(LG(S))      &kp LEFT_PARENTHESIS   &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&kp Z           &kp X             &kp C     &kp V      &kp B        &kp LALT           &kp RIGHT_PARENTHESIS  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LWIN  &kp LANG1  &lt 2 LANG2  &lt 3 SPACE        &kp BACKSPACE          &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -127,7 +127,7 @@
             bindings = <
 &kp LG(LEFT_ARROW)   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EXCLAMATION                                &kp F1  &kp F2  &kp F3  &kp AT_SIGN        &kp F5
 &kp LG(RIGHT_ARROW)  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp QUESTION     &trans               &kp F13  &kp F4  &kp F5  &kp F6  &kp DOUBLE_QUOTES  &kp F10
-&trans               &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LEFT_ARROW   &kp RIGHT_ARROW      &trans   &kp F7  &kt F8  &kp F9  &trans             &kp F11
+&kp ESC              &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LEFT_ARROW   &kp RIGHT_ARROW      &trans   &kp F7  &kt F8  &kp F9  &trans             &kp F11
 &trans               &trans        &trans        &trans        &trans           &trans               &trans   &trans                                     &kp F12
             >;
         };
