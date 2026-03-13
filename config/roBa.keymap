@@ -158,7 +158,7 @@
             bindings = <
 &trans  &kp LC(C)  &kp LC(V)  &kp LA(DOWN_ARROW)  &kp LC(Z)                      &trans    &trans    &mkp MB2  &trans    &trans
 &trans  &trans     &trans     &kp LC(SEMICOLON)   &trans     &trans      &trans  &trans    &mkp MB1  &trans    &mkp MB3  &trans
-&trans  &trans     &trans     &trans              &trans     &trans      &trans  &mkp MB4  &mkp MB4  &trans    &trans    &trans
+&trans  &trans     &trans     &trans              &trans     &trans      &trans  &mkp MB4  &mkp MB4  &mkp MB5  &trans    &trans
 &trans  &trans     &trans     &trans              &trans     &trans      &trans  &trans                                  &trans
             >;
         };
